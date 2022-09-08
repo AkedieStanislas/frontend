@@ -1,15 +1,13 @@
 import React from 'react'
-import { Box, Typography, Grid, Container, Link, Card } from '@mui/material'
+import { Box, Typography, Grid } from '@mui/material'
 import Javascript from '../Images/javascript.png'
 import Angular from '../Images/Angular.png'
 import reactlogo from '../Images/React.png'
 import Python from '../Images/Python.png'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 export default function Sixthpartle() {
     return (
-        <div><Box sx={{backgroundColor: '#f3f3f3', }}>
+        <div><Box sx={{backgroundColor: '#f3f3f3' }}>
                 <Grid container>
                     <Typography sx={{
                         marginLeft: '550px', marginTop: '20px',
