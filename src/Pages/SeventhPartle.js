@@ -2,8 +2,6 @@ import React from 'react'
 import { Button, Grid, Box, Typography, Stack, Link } from '@mui/material'
 import ArrowForwardSharpIcon from '@mui/icons-material/ArrowForwardSharp';
 import Tab2 from '../Images/Tab2.png'
-import Tab1 from '../Images/Tab1.png'
-import Tab3 from '../Images/Tab3.png'
 
 export default function SeventhPartle() {
     return (

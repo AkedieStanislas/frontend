@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Typography, Grid, Container, Link, Card } from '@mui/material'
+import { Box, Typography, Grid, Container } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
 import Akileur from '../Images/Akileur.png'
 

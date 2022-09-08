@@ -1,12 +1,10 @@
 import React from 'react'
-import { Box, Grid, Button, Link } from '@mui/material'
+import { Box, Grid, Button } from '@mui/material'
 import Grille from '../Images/Grille_de_répétition_2.png'
 import Akileur from '../Images/Akileur.png'
 import ForumIcon from '@mui/icons-material/Forum';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
-export default function Images() {
+export default function Picture() {
   return (
     <div>
       <Box component='img' src={Akileur} sx={{ width: '60%', height: '100%', borderRadius: '10px 10px', zIndex: 2 }} />
