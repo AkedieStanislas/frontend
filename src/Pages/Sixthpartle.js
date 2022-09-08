@@ -7,7 +7,7 @@ import Python from '../Images/Python.png'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
-export default function FifthPartle() {
+export default function Sixthpartle() {
     return (
         <div><Box sx={{backgroundColor: '#f3f3f3', }}>
                 <Grid container>

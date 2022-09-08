@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
 import { Typography, Box } from '@mui/material';
 
-export default function About() {
+export default function Abouts() {
     const [anchorEl, setAnchorEl] = useState(null);
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);

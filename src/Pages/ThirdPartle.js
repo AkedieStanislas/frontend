@@ -4,7 +4,7 @@ import Image1 from '../Images/Image1.png'
 import idée from '../Images/idée.png'
 import Work from '../Images/Work.png'
 
-export default function Partie() {
+export default function ThirdPartle() {
     return (
         <div><Box px={{ xs: 3, sm: 3 }} py={{ xs: 3, sm: 3 }} sx={{ backgroundColor: '#f3f3f3', marginTop: '-315px' }}>
             <Grid container>

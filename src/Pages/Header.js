@@ -4,9 +4,9 @@ import {
     Stack, Link,
     Toolbar, Typography
 } from '@mui/material'
-import About from './About'
-import Service from './Service'
 import LogoAkil from '../Images/LogoAkil.png'
+import Services from '../Components/Service'
+import Abouts from '../Components/About'
 
 
 export default function Header() {
@@ -19,8 +19,8 @@ export default function Header() {
                     </Stack>
                     <Stack direction="row" spacing={3} sx={{ margin: "auto", color: '#707070' }}>
                         <Typography sx={{ fontSize: '14px', fontFamily: 'orelega-one', textTransform: 'titlecase', cursor: "default" }}> Acceuil</Typography>
-                        <Typography sx={{ fontFamily: 'orelega-one', textTransform: 'titlecase', cursor: "pointer", fontSize: '10px'}}><About /></Typography>
-                        <Typography sx={{ fontFamily: 'orelega-one', textTransform: 'titlecase', cursor: "pointer" }}><Service /></Typography>
+                        <Typography sx={{ fontFamily: 'orelega-one', textTransform: 'titlecase', cursor: "pointer", fontSize: '10px'}}><Abouts /></Typography>
+                        <Typography sx={{ fontFamily: 'orelega-one', textTransform: 'titlecase', cursor: "pointer" }}><Services /></Typography>
                         <Typography sx={{ fontSize: '14px', fontFamily: 'orelega-one', textTransform: 'titlecase'}}><Link href="#" underline="none" color="#707070">Nos Methodologies</Link></Typography>
                         <Typography sx={{ fontSize: '14px', fontFamily: 'orelega-one', textTransform: 'titlecase' }}><Link href="#" underline="none" color="#707070">Activites</Link></Typography>
                     </Stack>

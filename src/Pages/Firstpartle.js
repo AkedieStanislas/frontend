@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
-import FootPicture from './FootPicture'
+import FootPicture from '../Components/FootPicture'
 
 export default function Firstpartle() {
   return (

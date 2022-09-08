@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react';
 
-export default function Service() {
+export default function Services() {
     const [anchor, setAnchor] = useState(null);
     const handClick = (event) => {
         setAnchor(event.currentTarget);

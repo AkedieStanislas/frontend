@@ -1,10 +1,8 @@
 import React from 'react'
 import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Teams from '../Images/Team.png'
-import FootPicture from './FootPicture'
-import Images from './Images'
 
-export default function ThirdPartle() {
+export default function FourthPartle() {
   return (
     <div>
       <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 5 }} bgcolor='#003168' color='white' sx={{ marginTop: 15 }} >
