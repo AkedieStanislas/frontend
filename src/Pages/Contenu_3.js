@@ -1,12 +1,12 @@
 import React from 'react'
-import { Box, Typography, Grid, Link} from '@mui/material'
+import { Box, Typography, Grid, Link } from '@mui/material'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 import Image1 from '../Images/Image1.png'
 import idée from '../Images/idée.png'
 import Work from '../Images/Work.png'
 
-export default function ThirdPartle() {
+export default function Contenu_3() {
     return (
         <div><Box px={{ xs: 3, sm: 3 }} py={{ xs: 3, sm: 3 }} sx={{ backgroundColor: '#f3f3f3', marginTop: '-315px' }}>
             <Grid container>
@@ -15,11 +15,11 @@ export default function ThirdPartle() {
                     fontWeight: 'bold', color: '#003168', fontSize: '25px'
                 }}>Processus de Travail</Typography>
             </Grid>
-            <Grid container sx={{ marginRight: '505px', marginTop: '45px'}}>
+            <Grid container sx={{ marginRight: '505px', marginTop: '45px' }}>
                 <Grid xs={4}>
                     <Box component='img' src={Image1} sx={{ width: '80px', marginLeft: '105px' }} />
                     <Box borderBottom={1} sx={{ marginTop: '91px' }}></Box>
-                    <ArrowCircleLeftOutlinedIcon sx={{marginTop: '-95px', color: '#b3b3b3',}} />
+                    <ArrowCircleLeftOutlinedIcon sx={{ marginTop: '-95px', color: '#b3b3b3', }} />
                     <Typography sx={{ fontWeight: 'bold', fontSize: '23px', marginTop: '57px', color: '#001833' }}>Cadrage et <br /> Etude de faisabilité</Typography> <br />
                     <Typography sx={{ marginRight: '55px', fontSize: '12px', fontFamily: 'Orelega One' }}>Nous échangeons avec vous pour mieux cerner vos besoins, vos idées sont transmis à nos ingénieurs pour une offre qui répond à vos attentes.</Typography>
                 </Grid>
@@ -34,7 +34,7 @@ export default function ThirdPartle() {
                 <Grid xs={4}>
                     <Box component='img' src={Work} sx={{ width: '80px', marginLeft: '75px' }} />
                     <Box borderBottom={1} sx={{ marginTop: '88px', marginRight: '55px' }}></Box>
-                    <Link href='#'><ArrowCircleRightOutlinedIcon sx={{marginTop: '-105px', marginBottom: '1px', width: '550px', color: '#003168',}} /></Link>
+                    <Link href='#'><ArrowCircleRightOutlinedIcon sx={{ marginTop: '-105px', marginBottom: '1px', width: '550px', color: '#003168', }} /></Link>
                     <Typography sx={{ fontWeight: 'bold', fontSize: '20px', marginTop: '58px', color: '#001833' }}>Développement Agile <br /> par la methode <br /> SCRUM</Typography> <br />
                     <Typography sx={{ marginRight: '55px', fontSize: '12px', fontFamily: 'Orelega One' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Ipsa veritatis soluta, nulla molestias provident distinctio nisi modi

@@ -3,7 +3,7 @@ import { Button, Grid, Box, Typography, Stack, Link } from '@mui/material'
 import ArrowForwardSharpIcon from '@mui/icons-material/ArrowForwardSharp';
 import Tab2 from '../Images/Tab2.png'
 
-export default function SeventhPartle() {
+export default function Contenu_7() {
     return (
         <div>
             <Grid>

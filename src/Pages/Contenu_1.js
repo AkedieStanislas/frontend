@@ -3,7 +3,7 @@ import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
 import FootPicture from '../Components/FootPicture'
 
-export default function Firstpartle() {
+export default function Contenu_1() {
   return (
     <div>
       <Box px={{ xs: 3, sm: 10 }} py={{ xs: 3, sm: 10 }} bgcolor='#003168' color='white' sx={{ marginTop: -5 }} >
