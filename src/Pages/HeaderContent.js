@@ -4,15 +4,15 @@ import {
 } from '@mui/material'
 import React from 'react'
 import Picture from '../Components/Picture'
-import ThirdPartle from './ThirdPartle';
-import FifthPartle from './FifthPartle';
-import SeventhPartle from './SeventhPartle';
-import Sixthpartle from './Sixthpartle';
+import ProcessusDeTravail from './ProcessusDeTravail';
+import Temoignage from './Temoignage';
+import Actualités from './Actualités';
+import Technologies from './Technologies';
 import About from './About';
 import Footer from './Footer';
-import FourthPartle from './FourthPartle';
+import Solutions from './Solutions';
 import Header from './Header';
-import Secondpartle from './Secondpartle';
+import NoServices from './NoServices';
 
 
 export default function HeaderContent() {
@@ -47,20 +47,20 @@ export default function HeaderContent() {
                 <About />
             </Grid>
             <Grid>
-                <Secondpartle />
+                <NoServices />
             </Grid>
-            <Grid><ThirdPartle /></Grid>
+            <Grid><ProcessusDeTravail /></Grid>
             <Grid>
-                <FourthPartle />
-            </Grid>
-            <Grid>
-                <FifthPartle />
+                <Solutions />
             </Grid>
             <Grid>
-                <Sixthpartle />
+                <Temoignage />
             </Grid>
             <Grid>
-                <SeventhPartle />
+                <Technologies />
+            </Grid>
+            <Grid>
+                <Actualités />
             </Grid>
             <footer >
                 <Footer />

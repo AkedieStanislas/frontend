@@ -5,7 +5,7 @@ import Angular from '../Images/Angular.png'
 import reactlogo from '../Images/React.png'
 import Python from '../Images/Python.png'
 
-export default function Sixthpartle() {
+export default function Technologies() {
     return (
         <div><Box sx={{backgroundColor: '#f3f3f3' }}>
                 <Grid container>

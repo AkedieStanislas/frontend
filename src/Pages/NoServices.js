@@ -10,7 +10,7 @@ import AdaptationSI from '../Images/Adaption_du_SI.png'
 import Employee from '../Images/Employee.png'
 import Rectangle19 from '../Images/Rectangle_1913.png'
 
-export default function Secondpartle() {
+export default function NoServices() {
     return (
         <Card sx={{ boxShadow: 'none', marginBottom: '45px' }}>
             <Grid>
