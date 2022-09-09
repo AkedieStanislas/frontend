@@ -8,7 +8,7 @@ import ThirdPartle from './ThirdPartle';
 import FifthPartle from './FifthPartle';
 import SeventhPartle from './SeventhPartle';
 import Sixthpartle from './Sixthpartle';
-import Firstpartle from './Firstpartle';
+import About from './About';
 import Footer from './Footer';
 import FourthPartle from './FourthPartle';
 import Header from './Header';
@@ -44,7 +44,7 @@ export default function HeaderContent() {
                 </Grid>
             </Grid>
             <Grid>
-                <Firstpartle />
+                <About />
             </Grid>
             <Grid>
                 <Secondpartle />
