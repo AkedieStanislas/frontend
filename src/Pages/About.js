@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
-import FootPicture from '../Components/FootPicture'
+import ImageAbout from '../Components/ImageAbout'
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
         <Container>
           <Grid container spacing={0}>
             <Grid item xs={6}>
-              <FootPicture />
+              <ImageAbout />
             </Grid>
             <Grid item xs={6}>
               <Box>

@@ -6,7 +6,7 @@ import {
 } from '@mui/material'
 import LogoAkil from '../Images/LogoAkil.png'
 import Services from '../Components/Service'
-import Abouts from '../Components/ABOUT'
+import Abouts from '../Components/Abouts'
 
 
 export default function Header() {
