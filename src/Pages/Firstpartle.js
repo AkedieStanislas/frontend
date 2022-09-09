@@ -1,16 +1,16 @@
 import React from 'react'
 import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
-import Image_Contenu_1 from '../Components/Image_Contenu_1'
+import FootPicture from '../Components/FootPicture'
 
-export default function Contenu_1() {
+export default function Firstpartle() {
   return (
     <div>
       <Box px={{ xs: 3, sm: 10 }} py={{ xs: 3, sm: 10 }} bgcolor='#003168' color='white' sx={{ marginTop: -5 }} >
         <Container>
           <Grid container spacing={0}>
             <Grid item xs={6}>
-              <Image_Contenu_1 />
+              <FootPicture />
             </Grid>
             <Grid item xs={6}>
               <Box>

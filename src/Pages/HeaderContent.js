@@ -4,15 +4,15 @@ import {
 } from '@mui/material'
 import React from 'react'
 import Picture from '../Components/Picture'
-import Contenu_3 from './Contenu_3';
-import Contenu_5 from './Contenu_5';
-import Contenu_7 from './Contenu_7';
-import Contenu_6 from './Contenu_6';
-import Contenu_1 from './Contenu_1';
+import ThirdPartle from './ThirdPartle';
+import FifthPartle from './FifthPartle';
+import SeventhPartle from './SeventhPartle';
+import Sixthpartle from './Sixthpartle';
+import Firstpartle from './Firstpartle';
 import Footer from './Footer';
-import Contenu_4 from './Contenu_4';
+import FourthPartle from './FourthPartle';
 import Header from './Header';
-import Contenu_2 from './Contenu_2';
+import Secondpartle from './Secondpartle';
 
 
 export default function HeaderContent() {
@@ -43,16 +43,24 @@ export default function HeaderContent() {
                     <Picture />
                 </Grid>
             </Grid>
-            <Grid><Contenu_1 /></Grid>
-            <Grid><Contenu_2 /></Grid>
-            <Grid><Contenu_3 /></Grid>
-            <Grid><Contenu_4 /> </Grid>
-            <Grid><Contenu_5 /></Grid>
             <Grid>
-                <Contenu_6 />
+                <Firstpartle />
             </Grid>
             <Grid>
-                <Contenu_7 />
+                <Secondpartle />
+            </Grid>
+            <Grid><ThirdPartle /></Grid>
+            <Grid>
+                <FourthPartle />
+            </Grid>
+            <Grid>
+                <FifthPartle />
+            </Grid>
+            <Grid>
+                <Sixthpartle />
+            </Grid>
+            <Grid>
+                <SeventhPartle />
             </Grid>
             <footer >
                 <Footer />

@@ -3,7 +3,7 @@ import { Box, Typography, Grid, Container } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
 import Akileur from '../Images/Akileur.png'
 
-export default function Contenu_5() {
+export default function FifthPartle() {
     return (
         <div><Box>
             <Container>
