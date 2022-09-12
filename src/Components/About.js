@@ -1,7 +1,8 @@
 import React from 'react'
 import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Tracé from '../Images/Tracé_14396.png'
-import ImageAbout from '../Components/ImageAbout'
+import ImageAbout from './ImageAbout'
+
 
 export default function About() {
   return (

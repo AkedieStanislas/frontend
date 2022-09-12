@@ -1,5 +1,5 @@
-import Footer from './Pages/Footer';
-import HeaderContent from './Pages/HeaderContent';
+
+import HeaderContent from './Components/HeaderContent';
 
 function App() {
   return (

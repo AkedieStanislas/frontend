@@ -5,8 +5,8 @@ import {
     Toolbar, Typography
 } from '@mui/material'
 import LogoAkil from '../Images/LogoAkil.png'
-import Services from '../Components/Service'
-import Abouts from '../Components/Abouts'
+import Services from './Service'
+import Abouts from './Abouts'
 
 
 export default function Header() {
