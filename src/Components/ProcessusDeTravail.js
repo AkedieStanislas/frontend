@@ -11,7 +11,7 @@ export default function ProcessusDeTravail() {
         <div><Box px={{ xs: 3, sm: 3 }} py={{ xs: 3, sm: 3 }} sx={{ backgroundColor: '#f3f3f3', marginTop: '-315px' }}>
             <Grid container>
                 <Typography sx={{
-                    marginLeft: '450px', marginTop: '20px',
+                    marginTop: '20px', display: 'flex', justifyContent: 'center',
                     fontWeight: 'bold', color: '#003168', fontSize: '25px'
                 }}>Processus de Travail</Typography>
             </Grid>
@@ -35,7 +35,7 @@ export default function ProcessusDeTravail() {
                     <Box component='img' src={Work} sx={{ width: '80px', marginLeft: '75px' }} />
                     <Box borderBottom={1} sx={{ marginTop: '88px', marginRight: '55px' }}></Box>
                     <Link href='#'><ArrowCircleRightOutlinedIcon sx={{marginTop: '-105px', marginBottom: '1px', width: '550px', color: '#003168',}} /></Link>
-                    <Typography sx={{ fontWeight: 'bold', fontSize: '20px', marginTop: '58px', color: '#001833' }}>Développement Agile <br /> par la methode <br /> SCRUM</Typography> <br />
+                    <Typography sx={{ fontWeight: 'bold', fontSize: '20px', marginTop: '58px', color: '#001833', textAlign: "start" }}>Développement Agile <br /> par la methode <br /> SCRUM</Typography> <br />
                     <Typography sx={{ marginRight: '55px', fontSize: '12px', fontFamily: 'Orelega One' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Ipsa veritatis soluta, nulla molestias provident distinctio nisi modi
                         rerum cum est voluptate dignissimos eveniet reprehenderit nostrum alias

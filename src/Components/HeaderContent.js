@@ -3,8 +3,8 @@ import {
     Typography
 } from '@mui/material'
 import React from 'react'
-import About from './About'
 import Actualités from './Actualités'
+import APropos from './APropos'
 import Footer from './Footer'
 import Header from './Header'
 import NoServices from './NoServices'
@@ -42,7 +42,7 @@ export default function HeaderContent() {
                 </Grid>
             </Grid>
             <Grid>
-                <About />
+                <APropos />
             </Grid>
             <Grid>
                 <NoServices />

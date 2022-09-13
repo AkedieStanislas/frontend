@@ -34,7 +34,7 @@ export default function Footer() {
                     </Grid> <br />
                     <Grid item xs={3}>
                         <Box sx={{ fontWeight: 'bold', fontSize: '20px', marginRight:'10px' , marginTop: '20px' }} >Contacts <br /> <br />
-                        {textContact.map((con)=> { return <FooterText key={con} text={con}/>})}
+                        {textContact.map((nom)=> { return <FooterText key={nom} text={nom}/>})}
                         </Box>
                     </Grid>
                 </Grid>
