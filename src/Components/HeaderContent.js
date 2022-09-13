@@ -1,5 +1,5 @@
 import {
-    Grid, Button, Box, Card,
+    Grid, Button, Box,
     Typography
 } from '@mui/material'
 import React from 'react'
@@ -17,7 +17,7 @@ import Temoignage from './Temoignage'
 
 export default function HeaderContent() {
     return (
-        <><Card sx={{ maxWidth: 1390 }}>
+        <>
             <Header />
             <Grid container margin='170px' sx={{ fontFamily: 'orelega-one' }}>
                 <Grid item xs={6}>
@@ -43,27 +43,16 @@ export default function HeaderContent() {
             </Grid>
             <Grid>
                 <APropos />
-            </Grid>
-            <Grid>
                 <NoServices />
-            </Grid>
-            <Grid><ProcessusDeTravail /></Grid>
-            <Grid>
+                <ProcessusDeTravail />
                 <Solutions />
-            </Grid>
-            <Grid>
                 <Temoignage />
-            </Grid>
-            <Grid>
                 <Technologies />
-            </Grid>
-            <Grid>
                 <Actualités />
             </Grid>
             <footer >
                 <Footer />
             </footer>
-        </Card>
         </>
     )
 }  

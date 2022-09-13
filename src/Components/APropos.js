@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box, Grid, Container, Typography, Button } from '@mui/material'
+import { Box, Grid, Typography, Button } from '@mui/material'
 import ImageAPropos from './ImageAPropos'
 import AProposText from './AProposText'
 
-const posts = [
+const about = [
   {
     id: 1, title: 'Excellente solution pour les entreprises',
     content: `Nous fournissons un excellent service de développemnt de logiciels pour créer des applications 
@@ -25,7 +25,6 @@ export default function APropos() {
   return (
     <div>
       <Box px={{ xs: 3, sm: 10 }} py={{ xs: 3, sm: 10 }} bgcolor='#003168' color='white' sx={{ marginTop: -5 }} >
-        <Container>
           <Grid container spacing={0}>
             <Grid item xs={6}>
               <ImageAPropos />
@@ -47,7 +46,7 @@ export default function APropos() {
                   l'assistance informatique, la mise en oeuvre de solutions
                   spécifiques et le pilotage de projets.
                 </Typography> <br />
-                <AProposText posts={posts} />
+                <AProposText abouts={about} />
               </Box>
               <br />
               <Box>
@@ -61,7 +60,6 @@ export default function APropos() {
               </Box>
             </Grid>
           </Grid>
-        </Container>
       </Box>
     </div>
   )

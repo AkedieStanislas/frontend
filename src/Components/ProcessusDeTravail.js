@@ -11,7 +11,7 @@ export default function ProcessusDeTravail() {
         <div><Box px={{ xs: 3, sm: 3 }} py={{ xs: 3, sm: 3 }} sx={{ backgroundColor: '#f3f3f3', marginTop: '-315px' }}>
             <Grid container>
                 <Typography sx={{
-                    marginTop: '20px', display: 'flex', justifyContent: 'center',
+                    marginTop: '20px', marginLeft: '500px',
                     fontWeight: 'bold', color: '#003168', fontSize: '25px'
                 }}>Processus de Travail</Typography>
             </Grid>

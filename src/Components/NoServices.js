@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Box, Typography, Grid, Link, Container, Button } from '@mui/material'
+import { Box, Typography, Grid, Link, Container, Button } from '@mui/material'
 import developmentProduit from '../Images/development_Produit.png'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import productdesign from '../Images/Product_Design.png'
@@ -14,17 +14,13 @@ import Rectangle19 from '../Images/Rectangle_1913.png'
 
 export default function NoServices() {
     return (
-        <Card sx={{ boxShadow: 'none', marginBottom: '45px' }}>
-            <Grid>
-                <Typography sx={{
-                    display: 'flex', justifyContent: 'center',
-                    marginTop: '58px', fontSize: '25px',
-                    fontWeight: 'bold', color: '#003168'
-                }}>Nos services</Typography>
-            </Grid>
+        <div>
+            <Typography sx={{
+                display: 'flex', justifyContent: 'center', marginTop: '58px', fontSize: '25px',
+                fontWeight: 'bold', color: '#003168' }}>Nos services</Typography>
             <Container sx={{ left: '200px', top: '390px', paddingLeft: "950px", marginTop: '25px', marginLeft: '125px' }}>
                 <Grid container>
-                    <Grid xs={4} sx={{ "&:hover": { color: "white", backgroundColor: '#003168' } }}>
+                    <Grid item xs={4} sx={{ "&:hover": { color: "white", backgroundColor: '#003168' } }}>
                         <Box component='img' src={productdesign} sx={{ width: '80px', marginTop: '15px', backgroundColor: 'white' }} />
                         <Typography sx={{ fontWeight: 'bold' }}>Produit Design</Typography>
                         <Typography sx={{ marginRight: '55px', }}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -33,7 +29,7 @@ export default function NoServices() {
                             Minima quis at iure ratione eaque.</Typography><br />
                         <Link underline='none' fontSize="18px" fontWeight="bold" color='#003168' sx={{ "&:hover": { color: 'white', backgroundColor: '#003168' } }}>En savoir plus</Link>
                     </Grid>
-                    <Grid xs={4} >
+                    <Grid item xs={4}>
                         <Box component='img' src={conseil} sx={{ width: '80px' }} />
                         <Typography sx={{ fontWeight: 'bold', color: '#003168' }}>Conseil</Typography>
                         <Typography sx={{ marginRight: '55px' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -41,7 +37,7 @@ export default function NoServices() {
                             velit maiores incidunt enim. Aliquid dolor nihil similique fugiat! Nemo, laudantium doloribus!</Typography><br />
                         <Link underline='none' fontSize="18px" color="#003168" fontWeight="bold">En savoir plus<ArrowRightAltIcon /></Link>
                     </Grid>
-                    <Grid xs={4}>
+                    <Grid item xs={4}>
                         <Box component='img' src={developmentProduit} sx={{ width: '90px', marginTop: '11px' }} />
                         <Typography sx={{ fontWeight: 'bold', color: '#003168' }}>Developpement Produit</Typography>
                         <Typography sx={{ marginRight: '55px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -50,7 +46,7 @@ export default function NoServices() {
                             necessitatibus accusamus quae ullam?</Typography> <br />
                         <Link underline='none' fontSize="18px" color="#003168" fontWeight="bold">En savoir plus<ArrowRightAltIcon /></Link>
                     </Grid>
-                    <Grid xs={4} >
+                    <Grid xs={4}>
                         <Box component='img' src={AdaptationSI} sx={{ width: '80px', marginTop: '25px' }} />
                         <Typography sx={{ fontWeight: 'bold', color: '#003168' }}>Adapatation Continue du SI</Typography>
                         <Typography sx={{ marginRight: '55px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi suscipit laborum,
@@ -58,15 +54,15 @@ export default function NoServices() {
                             minus consequuntur doloremque! Id, consequatur consequuntur! Debitis, in!</Typography><br />
                         <Link underline='none' fontSize="18px" color="#003168" fontWeight="bold">En savoir plus<ArrowRightAltIcon /></Link>
                     </Grid>
-                    <Grid xs={4} >
+                    <Grid item xs={4}>
                         <Box component='img' src={DataScience} alt="" sx={{ width: '80px', marginTop: '25px' }} />
                         <Typography sx={{ fontWeight: 'bold', color: '#003168' }}>Data Science</Typography>
                         <Typography sx={{ marginRight: '55px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi suscipit laborum,
                             quam ad tempore illo animi, tempora inventore nemo ipsa nobis,
                             minus consequuntur doloremque! Id, consequatur consequuntur! Debitis, in!</Typography><br />
-                        <Link underline='none' fontSize="18px" color="#003168" fontWeight="bold">En savoir plus<ArrowRightAltIcon/></Link>
+                        <Link underline='none' fontSize="18px" color="#003168" fontWeight="bold">En savoir plus<ArrowRightAltIcon /></Link>
                     </Grid>
-                    <Grid xs={4} >
+                    <Grid item xs={4}>
                         <Box component='img' src={Employee} sx={{ width: '210px', height: '260px', marginTop: '25px', marginLeft: '25px' }} />
                         <Box component='img' src={Rectangle19} sx={{ width: '220px', height: '260px', marginTop: '-211px', marginBottom: '290px', marginLeft: '67px', transform: 'translate(-20%, -20%)', }} />
                         <Typography sx={{
@@ -82,6 +78,6 @@ export default function NoServices() {
                     </Grid>
                 </Grid>
             </Container>
-        </Card>
+        </div>
     )
 }
