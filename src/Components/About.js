@@ -5,6 +5,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
 import { Typography, Box } from '@mui/material';
 
+const ComposantAProposHeader = ["Qui Sommes Nous ?", "Notre Equipe", "Nos Technologies", "Carriere"]
+
 export default function Abouts() {
     const [anchorEl, setAnchorEl] = useState(null);
     const handleClick = (event) => {
@@ -14,17 +16,14 @@ export default function Abouts() {
     const handleClose = () => {
         setAnchorEl(null);
     };
-
     return (
         <>
-            <Typography onClick={handleClick} sx={{fontSize: '13px'}}
-            >A Propos<ExpandMoreIcon sx={{width: '25px', marginTop: -1, marginBottom: -1}}/></Typography>
-            <Menu anchorEl={anchorEl} open={open} onClose={handleClose} sx={{}}
-            ><Box sx={{backgroundColor: '#f3f3f3'}}>
-                <MenuItem onClick={handleClose} sx={{fontFamily: 'Orelega One', lineSpacing: '24px', textTransform: 'titlecase'}}>Qui Sommes Nous ?</MenuItem>
-                <MenuItem onClick={handleClose} sx={{fontFamily: 'Orelega One', lineSpacing: '24px', textTransform: 'titlecase'}}>Notre Equipe</MenuItem>
-                <MenuItem onClick={handleClose} sx={{fontFamily: 'Montserrat', lineSpacing: '24px', textTransform: 'titlecase'}}>Nos Technologies</MenuItem>
-                <MenuItem onClick={handleClose} sx={{fontFamily: 'Montserrat', lineSpacing: '24px', textTransform: 'titlecase'}}>Carriere</MenuItem>
+            <Typography onClick={handleClick} sx={{ fontSize: '13px', cursor: "pointer" }}>
+                A Propos<ExpandMoreIcon sx={{ width: '25px', marginTop: -1, marginBottom: -1 }} />
+            </Typography>
+            <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
+                <Box sx={{ backgroundColor: '#f3f3f3' }}>
+                    {ComposantAProposHeader.map((root) => <MenuItem key={root} onClick={handleClose} sx={{ fontFamily: 'Orelega One', lineSpacing: '24px', textTransform: 'titlecase' }}>{root}</MenuItem>)}
                 </Box>
             </Menu>
         </>

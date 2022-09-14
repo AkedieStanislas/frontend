@@ -4,7 +4,7 @@ import Akilgirl from '../Images/AKILgirl.png'
 import Groupe from '../Images/Groupe_14605.png'
 import Grille2 from '../Images/Grille_de_répétition_3.png'
 
-export default function FootPicture() {
+export default function ImageAProposDeNous() {
   return (
     <div><Box component='img' src={Akilgirl} sx={{
         width: '70%', height: 'auto', marginLeft: '90px',
