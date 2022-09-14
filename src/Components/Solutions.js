@@ -1,6 +1,31 @@
 import React from 'react'
 import { Box, Grid, Container, Typography, Button } from '@mui/material'
 import Teams from '../Images/Team.png'
+import Solutiontext from './Solutiontext';
+
+
+const about = [
+  {
+    id: 1,
+    title: '1244',
+    content: `Projets`
+  },
+  {
+    id: 2,
+    title: '34598',
+    content: `Client satisfaits`
+  },
+  {
+    id: 3,
+    title: '50',
+    content: `Developpeurs`
+  },
+  {
+    id: 4,
+    title: '45',
+    content: `Applications réalisées`
+  }
+];
 
 export default function Solutions() {
   return (
@@ -38,12 +63,10 @@ export default function Solutions() {
             </Grid>
           </Grid>
         </Container>
+        
         <Box sx={{backgroundColor: '#0F234B', borderRadius: '10px 10px', width: '1075px', height: '120px', marginTop: 5, marginLeft: '55px'}}>
           <Grid container sx={{marginLeft: '195px'}}>
-        <Grid item xs={2} sx={{marginTop:'15px', fontWeight: 'bold', fontSize: '35px'}}>1244 <br /> <Typography> Projets</Typography></Grid>
-        <Grid item xs={2} sx={{marginTop:'15px', fontWeight: 'bold', fontSize: '35px'}}>34598 <br /> <Typography> Client staisfaits</Typography></Grid>
-        <Grid item xs={2} sx={{marginTop:'15px', fontWeight: 'bold', fontSize: '35px'}}>50 <br /> <Typography>Developpeurs</Typography></Grid>
-        <Grid item xs={2} sx={{marginTop:'15px', fontWeight: 'bold', fontSize: '35px'}}>45 <br /> <Typography>Applications <br /> réalisées</Typography></Grid>
+          <Solutiontext abouts={about} />
         </Grid>
       </Box>
       </Box>

@@ -20,14 +20,15 @@ export default function NoServices() {
                 fontWeight: 'bold', color: '#003168' }}>Nos services</Typography>
             <Container sx={{ left: '200px', top: '390px', paddingLeft: "950px", marginTop: '25px', marginLeft: '125px' }}>
                 <Grid container>
-                    <Grid item xs={4} sx={{ "&:hover": { color: "white", backgroundColor: '#003168' } }}>
+                    <Grid item xs={4}>
                         <Box component='img' src={productdesign} sx={{ width: '80px', marginTop: '15px', backgroundColor: 'white' }} />
-                        <Typography sx={{ fontWeight: 'bold' }}>Produit Design</Typography>
+                        <Typography sx={{ fontWeight:"bold" , color:'#003168', "&:hover": { color: 'white', backgroundColor: '#003168' } }}>Produit Design</Typography>
                         <Typography sx={{ marginRight: '55px', }}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Doloremque veniam ipsam eveniet architecto adipisci numquam reiciendis,
                             tempora delectus nihil suscipit nulla deleniti dolore voluptates.
                             Minima quis at iure ratione eaque.</Typography><br />
-                        <Link underline='none' fontSize="18px" fontWeight="bold" color='#003168' sx={{ "&:hover": { color: 'white', backgroundColor: '#003168' } }}>En savoir plus</Link>
+                        <Link underline='none' fontSize="18px" fontWeight="bold" color='#003168' sx={{ "&:hover": { color: 'white', backgroundColor: '#003168' } }}>
+                            En savoir plus<ArrowRightAltIcon /></Link>
                     </Grid>
                     <Grid item xs={4}>
                         <Box component='img' src={conseil} sx={{ width: '80px' }} />
