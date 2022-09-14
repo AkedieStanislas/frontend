@@ -2,7 +2,7 @@ import React from 'react'
 import { Typography } from '@mui/material'
 import Tracé from '../Images/Trace14396.png'
 
-export default function AProposText(props) {
+export default function AProposDeNousText(props) {
   const content = props.abouts.map((about) =>
     <div key={about.id}>
       <Typography sx={{

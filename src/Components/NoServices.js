@@ -11,7 +11,6 @@ import Employee from '../Images/Employee.png'
 import Rectangle19 from '../Images/Rectangle_1913.png'
 
 
-
 export default function NoServices() {
     return (
         <div>

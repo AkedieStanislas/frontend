@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, Typography, Button } from '@mui/material'
 import ImageAPropos from './ImageAPropos'
-import AProposText from './AProposText'
+import AProposDeNousText from './AProposDeNousText'
 
 const about = [
   {
@@ -24,7 +24,7 @@ const about = [
   }
 ];
 
-export default function APropos() {
+export default function AProposDeNous() {
   return (
     <div>
       <Box px={{ xs: 3, sm: 10 }} py={{ xs: 3, sm: 10 }} bgcolor='#003168' color='white' sx={{ marginTop: -5 }} >
@@ -49,7 +49,7 @@ export default function APropos() {
                 l'assistance informatique, la mise en oeuvre de solutions
                 spécifiques et le pilotage de projets.
               </Typography> <br />
-              <AProposText abouts={about} />
+              <AProposDeNousText abouts={about} />
             </Box>
             <br />
             <Box>
