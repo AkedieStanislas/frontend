@@ -1,28 +1,8 @@
 import React from 'react'
 import { Box, Grid, Typography, Button } from '@mui/material'
-import ImageAPropos from './ImageAPropos'
+import ImageAProposDeNous from './ImageAProposDeNous'
 import AProposDeNousText from './AProposDeNousText'
-
-const about = [
-  {
-    id: 1,
-    title: 'Excellente solution pour les entreprises',
-    content: `Nous fournissons un excellent service de développement de logiciels pour créer des applications 
-    innovantes.`
-  },
-  {
-    id: 2,
-    title: 'Satisfaction des clients',
-    content: `Avec nos méthodes et méthodologies, nos clients sont satisfaits et deviennent nos ambassadeurs 
-    dans leurs réseaux professionnels.`
-  },
-  {
-    id: 3,
-    title: 'Equipe Expérimentée',
-    content: `Les skills de nos membres sont aux normes internationales. Fort de leurs expériences, ils 
-    s'adaptent à tout type de terrain et apportent la garantie d'une expertise reconnue.`
-  }
-];
+import {about} from '../Constants/constant'
 
 export default function AProposDeNous() {
   return (
@@ -30,7 +10,7 @@ export default function AProposDeNous() {
       <Box px={{ xs: 3, sm: 10 }} py={{ xs: 3, sm: 10 }} bgcolor='#003168' color='white' sx={{ marginTop: -5 }} >
         <Grid container spacing={0}>
           <Grid item xs={6}>
-            <ImageAPropos />
+            <ImageAProposDeNous />
           </Grid>
           <Grid item xs={6}>
             <Box>
@@ -40,7 +20,7 @@ export default function AProposDeNous() {
               }}>A propos de nous</Typography><br />
               <Typography marginLeft='auto' sx={{
                 fontSize: '15px', fontFamily: 'Orelega One', 
-                lineSpacing: '10000px', textTransform: 'titlecase'
+                textTransform: 'titlecase'
               }}>AKIL Technologies est une société de services en ingénierie<br />informatique (SS2I) dont le siège social est situé à Abidjan et<br />qui possède des bureaux affiliés à Paris et à Washington DC.<br /><br />
                 Depuis notre création en 2015, nous avons fourni une large gamme de services pour <br />l'automatisation et la transformation
                 digitale des différentes instutions de l'Etat <br />Ivoirien, de

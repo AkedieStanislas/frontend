@@ -4,6 +4,8 @@ import Javascript from '../Images/javascript.png'
 import Angular from '../Images/Angular.png'
 import reactlogo from '../Images/React.png'
 import Python from '../Images/Python.png'
+import TechnologiesText from './TechnologiesText'
+import { ComposantTechnologies } from '../Constants/constant'
 
 export default function Technologies() {
     return (
@@ -13,10 +15,7 @@ export default function Technologies() {
                         marginLeft: '550px', marginTop: '20px',
                         fontWeight: 'bold', color: '#003168', fontSize: '25px'
                     }}>Nos technologies</Typography> <br />
-                    <Typography sx={{marginBottom: '5px', marginLeft: '315px'
-                    }}> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est recusandae veritatis dolorum</Typography>
-                    <Typography  sx={{marginBottom: '35px', marginLeft: '305px'
-                    }}> praesentium nesciunt alias non nostrum repellat ipsam ab eos tenetur beatae corrupti ? Bonsos</Typography>
+                    <TechnologiesText abouts={ComposantTechnologies} />
                 </Grid>
           <Grid container sx={{marginLeft: '195px'}}>
           <Grid>

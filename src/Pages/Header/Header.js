@@ -4,11 +4,10 @@ import {
     Stack, Link,
     Toolbar, Typography
 } from '@mui/material'
-import LogoAkil from '../Images/LogoAkil.png'
+import LogoAkil from '../../Images/LogoAkil.png'
 import Services from './Service'
-import Abouts from './Abouts'
-
-const ComposantsduHeader = ["Nos Methodologies", "Activites"]
+import {ComposantsduHeader} from '../../Constants/constant'
+import APropos from './APropos'
 
 export default function Header() {
     return (
@@ -20,7 +19,7 @@ export default function Header() {
                     </Stack>
                     <Stack direction="row" spacing={3} sx={{ margin: "auto", color: '#707070' }}>
                         <Typography sx={{ fontSize: '14px', fontFamily: 'orelega-one', textTransform: 'titlecase', cursor: "default" }}>Acceuil</Typography>
-                        <Abouts /><Services />
+                        <APropos /><Services />
                         {ComposantsduHeader.map((elt) => <Typography key={elt} sx={{ fontSize: '14px', fontFamily: 'orelega-one', textTransform: 'titlecase' }}><Link href="#" underline="none" color="#707070">{elt}</Link></Typography>)}
                     </Stack>
                     <Stack direction="row" spacing={5} sx={{ margin: "auto" }}>

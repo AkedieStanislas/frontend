@@ -4,10 +4,9 @@ import MenuItem from '@mui/material/MenuItem';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
 import { Typography, Box } from '@mui/material';
+import {ComposantAProposHeader} from '../../Constants/constant'
 
-const ComposantAProposHeader = ["Qui Sommes Nous ?", "Notre Equipe", "Nos Technologies", "Carriere"]
-
-export default function Abouts() {
+export default function APropos() {
     const [anchorEl, setAnchorEl] = useState(null);
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);

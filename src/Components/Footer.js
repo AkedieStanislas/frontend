@@ -2,11 +2,7 @@ import React from 'react'
 import { Box, Grid, Typography } from '@mui/material'
 import AkilLogo2 from '../Images/AkilLogo2.png'
 import FooterText from './FooterText'
-
-const textService= ["Product Design", "Conseil", "Developpement Produit", "Adapatation Continue du SI", "Data Science"]
-const textLocalisations=["Abidjan, Cocody Riviera, Faya, Lauriers 9", "Washington DC, 8101 Sandy Sping RD Suite 100k", "Paris 4, Rue Michel-Ange, 7506-Paris, France" ]
-const textContact=["+225 27 22 42 74 04","+337 58 73 23 13"]
-
+import {textService, textLocalisations, textContact} from '../Constants/constant'
 
 export default function Footer() {
     return (

@@ -10,18 +10,18 @@ import AdaptationSI from '../Images/Adaption_du_SI.png'
 import Employee from '../Images/Employee.png'
 import Rectangle19 from '../Images/Rectangle_1913.png'
 
-
 export default function NoServices() {
     return (
         <div>
             <Typography sx={{
                 display: 'flex', justifyContent: 'center', marginTop: '58px', fontSize: '25px',
-                fontWeight: 'bold', color: '#003168' }}>Nos services</Typography>
+                fontWeight: 'bold', color: '#003168'
+            }}>Nos services</Typography>
             <Container sx={{ left: '200px', top: '390px', paddingLeft: "950px", marginTop: '25px', marginLeft: '125px' }}>
                 <Grid container>
                     <Grid item xs={4}>
                         <Box component='img' src={productdesign} sx={{ width: '80px', marginTop: '15px', backgroundColor: 'white' }} />
-                        <Typography sx={{ fontWeight:"bold" , color:'#003168', "&:hover": { color: 'white', backgroundColor: '#003168' } }}>Produit Design</Typography>
+                        <Typography sx={{ fontWeight: "bold", color: '#003168', "&:hover": { color: 'white', backgroundColor: '#003168' } }}>Produit Design</Typography>
                         <Typography sx={{ marginRight: '55px', }}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Doloremque veniam ipsam eveniet architecto adipisci numquam reiciendis,
                             tempora delectus nihil suscipit nulla deleniti dolore voluptates.

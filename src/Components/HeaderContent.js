@@ -4,16 +4,15 @@ import {
 } from '@mui/material'
 import React from 'react'
 import Actualités from './Actualités'
-import APropos from './APropos'
+import AProposDeNous from './AProposDeNous'
 import Footer from './Footer'
-import Header from './Header'
 import NoServices from './NoServices'
 import Picture from './Picture'
 import ProcessusDeTravail from './ProcessusDeTravail'
 import Solutions from './Solutions'
 import Technologies from './Technologies'
 import Temoignage from './Temoignage'
-
+import Header from '../Pages/Header/Header'
 
 export default function HeaderContent() {
     return (
@@ -42,7 +41,7 @@ export default function HeaderContent() {
                 </Grid>
             </Grid>
             <Grid>
-                <APropos />
+                <AProposDeNous />
                 <NoServices />
                 <ProcessusDeTravail />
                 <Solutions />
