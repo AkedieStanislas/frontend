@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, Grid, Typography, Button } from '@mui/material'
-import ImageAProposDeNous from './ImageAProposDeNous'
-import AProposDeNousText from './AProposDeNousText'
-import {about} from '../Constants/constant'
+import ImageAProposDeNous from '../../Components/ImageAProposDeNous'
+import AProposDeNousText from '../../Components/AProposDeNousText'
+import {about} from '../../Constants/constant'
 
 export default function AProposDeNous() {
   return (

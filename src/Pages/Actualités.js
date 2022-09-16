@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Grid, Typography, Stack } from '@mui/material'
-import ActualitésText from './ActualitésText';
+import ActualitésText from '../Components/ActualitésText';
 import { ComposantDActualité } from '../Constants/constant';
 
 export default function Actualités() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Typography, Grid, Container } from '@mui/material'
-import TemoignageText from './TemoignageText'
+import TemoignageText from '../Components/TemoignageText'
 import { ComposantTemoignage } from '../Constants/constant'
 
 export default function Temoignage() {

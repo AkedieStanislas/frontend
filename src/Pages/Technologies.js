@@ -4,7 +4,7 @@ import Javascript from '../Images/javascript.png'
 import Angular from '../Images/Angular.png'
 import reactlogo from '../Images/React.png'
 import Python from '../Images/Python.png'
-import TechnologiesText from './TechnologiesText'
+import TechnologiesText from '../Components/TechnologiesText'
 import { ComposantTechnologies } from '../Constants/constant'
 
 export default function Technologies() {

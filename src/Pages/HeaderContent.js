@@ -4,15 +4,15 @@ import {
 } from '@mui/material'
 import React from 'react'
 import Actualités from './Actualités'
-import AProposDeNous from './AProposDeNous'
+import AProposDeNous from '../Components/AProposDeNous'
 import Footer from './Footer'
 import NoServices from './NoServices'
-import Picture from './Picture'
+import Picture from '../Components/Picture'
 import ProcessusDeTravail from './ProcessusDeTravail'
 import Solutions from './Solutions'
 import Technologies from './Technologies'
 import Temoignage from './Temoignage'
-import Header from '../Pages/Header/Header'
+import Header from './Header/Header'
 
 export default function HeaderContent() {
     return (
