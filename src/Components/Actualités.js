@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Grid, Typography, Stack } from '@mui/material'
-import ActualitésText from '../ActualitésText';
-import { ComposantDActualité } from '../../Constants/constant';
+import ActualitésText from './ActualitésText';
+import { ComposantDActualité } from '../Constants/constant';
 
 export default function Actualités() {
     return (
