@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, Typography } from '@mui/material'
 import AkilLogo2 from '../Images/AkilLogo2.png'
-import FooterText from '../Components/FooterText'
+import FooterText from './FooterText'
 import {textService, textLocalisations, textContact} from '../Constants/constant'
 
 export default function Footer() {

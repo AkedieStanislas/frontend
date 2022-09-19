@@ -16,8 +16,8 @@ export default function Services() {
     return (
         <>
             <Typography onClick={handClick} sx={{ fontSize: '13px', cursor: "pointer" }}>Services<ExpandMoreIcon sx={{ width: '25px', marginTop: -1, marginBottom: -1 }} /></Typography>
-            <Menu anchorEl={anchor} open={open} onClose={handClose}
-            ><Box sx={{ backgroundColor: '#f3f3f3' }}>
+            <Menu anchorEl={anchor} open={open} onClose={handClose}>
+                <Box sx={{ backgroundColor: '#f3f3f3' }}>
                     {textService.map((elt) =>
                         <MenuItem key={elt} onClick={handClose} sx={{ fontFamily: 'Montserrat', lineSpacing: '24px', textTransform: 'titlecase' }}>{elt}</MenuItem>
                     )}
