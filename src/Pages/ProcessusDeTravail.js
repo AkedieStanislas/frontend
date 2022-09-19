@@ -2,8 +2,8 @@ import React from 'react'
 import { Box, Typography, Grid, Link} from '@mui/material'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
-import Image1 from '../Images/Image1.png'
-import idée from '../Images/idée.png'
+import Search from '../Images/Search.png'
+import Idée from '../Images/Idée.png'
 import Work from '../Images/Work.png'
 
 export default function ProcessusDeTravail() {
@@ -17,14 +17,14 @@ export default function ProcessusDeTravail() {
             </Grid>
             <Grid container sx={{ marginRight: '505px', marginTop: '45px'}}>
                 <Grid item xs={4}>
-                    <Box component='img' src={Image1} sx={{ width: '80px', marginLeft: '105px' }} />
+                    <Box component='img' src={Search} sx={{ width: '80px', marginLeft: '105px' }} />
                     <Box borderBottom={1} sx={{ marginTop: '91px' }}></Box>
                     <ArrowCircleLeftOutlinedIcon sx={{marginTop: '-95px', color: '#b3b3b3',}} />
                     <Typography sx={{ fontWeight: 'bold', fontSize: '23px', marginTop: '57px', color: '#001833' }}>Cadrage et <br /> Etude de faisabilité</Typography> <br />
                     <Typography sx={{ marginRight: '55px', fontSize: '12px', fontFamily: 'Orelega One' }}>Nous échangeons avec vous pour mieux cerner vos besoins, vos idées sont transmis à nos ingénieurs pour une offre qui répond à vos attentes.</Typography>
                 </Grid>
                 <Grid item xs={4}>
-                    <Box component='img' src={idée} sx={{ width: '80px', marginLeft: '75px' }} />
+                    <Box component='img' src={Idée} sx={{ width: '80px', marginLeft: '75px' }} />
                     <Box borderBottom={1} sx={{ marginTop: '87px', }}></Box>
                     <Typography sx={{ fontWeight: 'bold', fontSize: '23px', marginTop: '78px', color: '#001833' }}>Idéation et proposition <br /> de Designs</Typography> <br />
                     <Typography sx={{ marginRight: '55px', fontSize: '12px', fontFamily: 'Orelega One' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.

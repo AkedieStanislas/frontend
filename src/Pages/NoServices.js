@@ -8,7 +8,7 @@ import Grille from '../Images/Grille_de_répétition_2.png'
 import conseil from '../Images/Conseil.png'
 import AdaptationSI from '../Images/Adaption_du_SI.png'
 import Employee from '../Images/Employee.png'
-import Rectangle19 from '../Images/Rectangle_1913.png'
+import RectangleBlue from '../Images/RectangleBlue.png'
 
 export default function NoServices() {
     return (
@@ -64,7 +64,7 @@ export default function NoServices() {
                     </Grid>
                     <Grid item xs={4}>
                         <Box component='img' src={Employee} sx={{ width: '210px', height: '260px', marginTop: '25px', marginLeft: '25px' }} />
-                        <Box component='img' src={Rectangle19} sx={{ width: '220px', height: '260px', marginTop: '-211px', marginBottom: '290px', marginLeft: '67px', transform: 'translate(-20%, -20%)', }} />
+                        <Box component='img' src={RectangleBlue} sx={{ width: '220px', height: '260px', marginTop: '-211px', marginBottom: '290px', marginLeft: '67px', transform: 'translate(-20%, -20%)', }} />
                         <Typography sx={{
                             fontSize: '20px', width: '195px', height: '215px', marginLeft: '135px', marginTop: '-439px', transform: 'translate(-50%, -50%)', fontWeight: 'Bold', color: 'white'
                         }}>Nous faire confiance pour vos projets  <br /> <br /><Button variant="contained" sx={
