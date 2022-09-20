@@ -1,11 +1,10 @@
-import HeaderContent from "./Pages/HeaderContent";
-
+import Acceuil from '../src/Pages/Acceuil'
 
 
 function App() {
   return (
     <div>
-      <HeaderContent />
+      <Acceuil />
     </div>
   );
 }

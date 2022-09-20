@@ -3,18 +3,18 @@ import {
     Typography
 } from '@mui/material'
 import React from 'react'
-import Actualités from './Actualités'
 import Footer from '../Components/Footer'
-import NoServices from './NoServices'
 import Picture from '../Components/Picture'
-import ProcessusDeTravail from './ProcessusDeTravail'
-import Solutions from './Solutions'
-import Technologies from './Technologies'
-import Temoignage from './Temoignage'
 import Header from '../Components/Header/Header'
 import AProposDeNous from '../Components/Header/AProposDeNous'
+import Temoignage from '../Components/Temoignage'
+import ProcessusDeTravail from '../Components/ProcessusDeTravail'
+import Solutions from '../Components/Solutions'
+import Technologies from '../Components/Technologies'
+import Actualités from '../Components/Actualités'
+import NoServices from '../Components/NoServices'
 
-export default function HeaderContent() {
+export default function Acceuil() {
     return (
         <>
             <Header />
