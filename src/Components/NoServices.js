@@ -1,12 +1,12 @@
 import React from 'react'
 import { Box, Typography, Grid, Link, Container, Button } from '@mui/material'
-import developmentProduit from '../Images/development_Produit.png'
+import developmentProduit from '../Images/DeveloppementProduit.png'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import productdesign from '../Images/Product_Design.png'
-import DataScience from '../Images/Data_Science.png'
-import Grille from '../Images/Grille_de_répétition_2.png'
+import productdesign from '../Images/ProductDesign.png'
+import DataScience from '../Images/DataScience.png'
+import Grille from '../Images/GrilleDeRepetition2.png'
 import conseil from '../Images/Conseil.png'
-import AdaptationSI from '../Images/Adaption_du_SI.png'
+import AdaptationSI from '../Images/AdaptationDuSI.png'
 import Employee from '../Images/Employee.png'
 import RectangleBlue from '../Images/RectangleBlue.png'
 

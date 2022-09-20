@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid, Button } from '@mui/material'
-import Grille from '../Images/Grille_de_répétition_2.png'
+import Grille from '../Images/GrilleDeRepetition2.png'
 import Akileur from '../Images/Akileur.png'
 import ForumIcon from '@mui/icons-material/Forum';
 

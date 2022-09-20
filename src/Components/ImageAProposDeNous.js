@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box } from '@mui/material'
 import Akilgirl from '../Images/AKILgirl.png'
-import Groupe from '../Images/Groupe_14605.png'
-import Grille2 from '../Images/Grille_de_répétition_3.png'
+import Groupe from '../Images/Groupe14605.png'
+import Grille2 from '../Images/GrilleDeRepetition2.png'
 
 export default function ImageAProposDeNous() {
   return (

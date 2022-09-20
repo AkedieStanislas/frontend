@@ -3,7 +3,7 @@ import { Box, Typography, Grid, Link} from '@mui/material'
 import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
 import Search from '../Images/Search.png'
-import Idée from '../Images/Idée.png'
+import Idée from '../Images/Idea.png'
 import Work from '../Images/Work.png'
 
 export default function ProcessusDeTravail() {
