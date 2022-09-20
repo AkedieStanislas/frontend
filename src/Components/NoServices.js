@@ -46,7 +46,7 @@ export default function NoServices() {
                             necessitatibus accusamus quae ullam?</Typography> <br />
                         <Link underline='none' fontSize="18px" color="#003168" fontWeight="bold">En savoir plus<ArrowRightAltIcon /></Link>
                     </Grid>
-                    <Grid xs={4}>
+                    <Grid item xs={4}>
                         <Box component='img' src={AdaptationSI} sx={{ width: '80px', marginTop: '25px' }} />
                         <Typography sx={{ fontWeight: 'bold', color: '#003168' }}>Adapatation Continue du SI</Typography>
                         <Typography sx={{ marginRight: '55px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi suscipit laborum,
